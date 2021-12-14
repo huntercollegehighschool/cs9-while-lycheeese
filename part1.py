@@ -12,8 +12,8 @@ Number of squares less than or equal to 50: 7
 
 '''
 num = int(input("Enter a number: "))
-numbertosquare = 2
-numsquares = 1
+numbertosquare = 1
+numsquares = 0
 
 while numbertosquare ** 2 <= num:
   numsquares = numsquares + 1
